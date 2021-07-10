@@ -6,7 +6,7 @@ const sendWelcomeEmail = (email, name) => {
         service: 'gmail',
         auth: {
             user: 'rishu04072001@gmail.com',
-            pass: '8853631554'
+            pass: process.env.emailPassword
         }
     });
 
